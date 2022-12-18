@@ -1,6 +1,6 @@
-@media (max-width: 1200px){
+@media (max-width: 1199px){
 	.container{
-		width: 880px;
+		width: 945px;
 	}
 	.carousel{
 		&__inner{
@@ -56,6 +56,11 @@
 			width: 400px;
 		}
 	}
+	.catalog{
+		&__content{
+			justify-content: space-around;
+		}
+	}
 }
 
 @media (max-width: 767px){
@@ -89,6 +94,12 @@
 			margin-top: 10px;
 		}
 	}
+	.consultation{
+		padding: 60px 0 60px 0;
+		&__descr{
+			font-size: 14px;
+		}
+	}
 	.title{
 		font-size: 20px;
 		line-height: 30px;
@@ -115,6 +126,20 @@
 					background: $main-color;
 				}
 			}
+	}
+	.catalog{
+		padding-bottom: 60px;
+		&__tab{
+			font-size: 14px;
+		}
+	}
+	.reviews{
+		&__item{
+			flex-direction: column;
+		}
+		&__text{
+			padding-left: 0px;
+		}
 	}
 }
 
@@ -162,6 +187,13 @@
 	.carousel{
 		&__inner{
 			width: 300px;
+		}
+	}
+	.catalog{
+		&__tab{
+			height: 33px;
+			font-size: 11px;
+			line-height: 30px;
 		}
 	}
 }

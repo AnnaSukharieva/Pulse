@@ -1,0 +1,39 @@
+.reviews{
+	padding-bottom: 50px;
+	&__main{
+		padding-top: 65px;
+	}
+	&__item{
+		display: flex;
+		align-items: center;
+		padding-bottom: 60px;
+		&:last-child{
+			padding-bottom: 0;
+		}
+		img{
+			width: 167px;
+			height: 167px;
+		}
+	}
+	&__text{
+		padding-left: 60px;
+	}
+	&__user-info{
+		padding-bottom: 20px;
+	}
+	&__user-name{
+		font-weight: 700;
+		font-size: 18px;
+		color: #0D0D0D;
+	}
+	&__user-experience{
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+	}
+	&__descr{
+		font-weight: 300;
+		font-size: 16px;
+		color: #0D0D0D;
+	}
+}
